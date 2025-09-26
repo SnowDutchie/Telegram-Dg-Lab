@@ -1,0 +1,1217 @@
+('C:\\Users\\tadeu\\OneDrive\\Desktop\\telegram dglab\\dist\\CoyoteServer.exe',
+ True,
+ False,
+ False,
+ 'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+ 'dglab\\.venv\\Lib\\site-packages\\PyInstaller\\bootloader\\images\\icon-console.ico',
+ None,
+ False,
+ False,
+ b'<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<assembly xmlns='
+ b'"urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">\n  <trustInfo x'
+ b'mlns="urn:schemas-microsoft-com:asm.v3">\n    <security>\n      <requested'
+ b'Privileges>\n        <requestedExecutionLevel level="asInvoker" uiAccess='
+ b'"false"/>\n      </requestedPrivileges>\n    </security>\n  </trustInfo>\n  '
+ b'<compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">\n    <'
+ b'application>\n      <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f'
+ b'0}"/>\n      <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>\n '
+ b'     <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"/>\n      <s'
+ b'upportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>\n      <supporte'
+ b'dOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/>\n    </application>\n  <'
+ b'/compatibility>\n  <application xmlns="urn:schemas-microsoft-com:asm.v3">'
+ b'\n    <windowsSettings>\n      <longPathAware xmlns="http://schemas.micros'
+ b'oft.com/SMI/2016/WindowsSettings">true</longPathAware>\n    </windowsSett'
+ b'ings>\n  </application>\n  <dependency>\n    <dependentAssembly>\n      <ass'
+ b'emblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" version='
+ b'"6.0.0.0" processorArchitecture="*" publicKeyToken="6595b64144ccf1df" langua'
+ b'ge="*"/>\n    </dependentAssembly>\n  </dependency>\n</assembly>',
+ True,
+ False,
+ None,
+ None,
+ None,
+ 'C:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+ 'dglab\\build\\CoyoteServer\\CoyoteServer.pkg',
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'C:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\build\\CoyoteServer\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\build\\CoyoteServer\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\build\\CoyoteServer\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\build\\CoyoteServer\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\build\\CoyoteServer\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\build\\CoyoteServer\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_setuptools',
+   'C:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
+   'PYSOURCE'),
+  ('server_launcher',
+   'C:\\Users\\tadeu\\OneDrive\\Desktop\\telegram dglab\\server_launcher.py',
+   'PYSOURCE'),
+  ('python312.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\python312.dll',
+   'BINARY'),
+  ('_decimal.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_asyncio.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('_wmi.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_wmi.pyd',
+   'EXTENSION'),
+  ('websockets\\speedups.cp312-win_amd64.pyd',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\websockets\\speedups.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('_uuid.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_uuid.pyd',
+   'EXTENSION'),
+  ('pydantic_core\\_pydantic_core.cp312-win_amd64.pyd',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic_core\\_pydantic_core.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('_zoneinfo.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_zoneinfo.pyd',
+   'EXTENSION'),
+  ('yaml\\_yaml.cp312-win_amd64.pyd',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\yaml\\_yaml.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingft.cp312-win_amd64.pyd',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\PIL\\_imagingft.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imaging.cp312-win_amd64.pyd',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\PIL\\_imaging.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_webp.cp312-win_amd64.pyd',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\PIL\\_webp.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingtk.cp312-win_amd64.pyd',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\PIL\\_imagingtk.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_avif.cp312-win_amd64.pyd',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\PIL\\_avif.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingcms.cp312-win_amd64.pyd',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\PIL\\_imagingcms.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingmath.cp312-win_amd64.pyd',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\PIL\\_imagingmath.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('_elementtree.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\_elementtree.pyd',
+   'EXTENSION'),
+  ('watchfiles\\_rust_notify.cp312-win_amd64.pyd',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\watchfiles\\_rust_notify.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('httptools\\parser\\url_parser.cp312-win_amd64.pyd',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\httptools\\parser\\url_parser.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('httptools\\parser\\parser.cp312-win_amd64.pyd',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\httptools\\parser\\parser.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('VCRUNTIME140.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('libcrypto-3.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('libssl-3.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\libssl-3.dll',
+   'BINARY'),
+  ('libffi-8.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\DLLs\\libffi-8.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('fastapi-0.117.1.dist-info\\INSTALLER',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi-0.117.1.dist-info\\INSTALLER',
+   'DATA'),
+  ('fastapi-0.117.1.dist-info\\METADATA',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi-0.117.1.dist-info\\METADATA',
+   'DATA'),
+  ('fastapi-0.117.1.dist-info\\RECORD',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi-0.117.1.dist-info\\RECORD',
+   'DATA'),
+  ('fastapi-0.117.1.dist-info\\REQUESTED',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi-0.117.1.dist-info\\REQUESTED',
+   'DATA'),
+  ('fastapi-0.117.1.dist-info\\WHEEL',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi-0.117.1.dist-info\\WHEEL',
+   'DATA'),
+  ('fastapi-0.117.1.dist-info\\entry_points.txt',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi-0.117.1.dist-info\\entry_points.txt',
+   'DATA'),
+  ('fastapi-0.117.1.dist-info\\licenses\\LICENSE',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi-0.117.1.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('fastapi\\__init__.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\__init__.py',
+   'DATA'),
+  ('fastapi\\__main__.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\__main__.py',
+   'DATA'),
+  ('fastapi\\_compat.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\_compat.py',
+   'DATA'),
+  ('fastapi\\applications.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\applications.py',
+   'DATA'),
+  ('fastapi\\background.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\background.py',
+   'DATA'),
+  ('fastapi\\cli.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\cli.py',
+   'DATA'),
+  ('fastapi\\concurrency.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\concurrency.py',
+   'DATA'),
+  ('fastapi\\datastructures.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\datastructures.py',
+   'DATA'),
+  ('fastapi\\dependencies\\__init__.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\dependencies\\__init__.py',
+   'DATA'),
+  ('fastapi\\dependencies\\models.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\dependencies\\models.py',
+   'DATA'),
+  ('fastapi\\dependencies\\utils.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\dependencies\\utils.py',
+   'DATA'),
+  ('fastapi\\encoders.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\encoders.py',
+   'DATA'),
+  ('fastapi\\exception_handlers.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\exception_handlers.py',
+   'DATA'),
+  ('fastapi\\exceptions.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\exceptions.py',
+   'DATA'),
+  ('fastapi\\logger.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\logger.py',
+   'DATA'),
+  ('fastapi\\middleware\\__init__.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\middleware\\__init__.py',
+   'DATA'),
+  ('fastapi\\middleware\\cors.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\middleware\\cors.py',
+   'DATA'),
+  ('fastapi\\middleware\\gzip.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\middleware\\gzip.py',
+   'DATA'),
+  ('fastapi\\middleware\\httpsredirect.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\middleware\\httpsredirect.py',
+   'DATA'),
+  ('fastapi\\middleware\\trustedhost.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\middleware\\trustedhost.py',
+   'DATA'),
+  ('fastapi\\middleware\\wsgi.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\middleware\\wsgi.py',
+   'DATA'),
+  ('fastapi\\openapi\\__init__.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\openapi\\__init__.py',
+   'DATA'),
+  ('fastapi\\openapi\\constants.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\openapi\\constants.py',
+   'DATA'),
+  ('fastapi\\openapi\\docs.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\openapi\\docs.py',
+   'DATA'),
+  ('fastapi\\openapi\\models.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\openapi\\models.py',
+   'DATA'),
+  ('fastapi\\openapi\\utils.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\openapi\\utils.py',
+   'DATA'),
+  ('fastapi\\param_functions.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\param_functions.py',
+   'DATA'),
+  ('fastapi\\params.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\params.py',
+   'DATA'),
+  ('fastapi\\py.typed',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\py.typed',
+   'DATA'),
+  ('fastapi\\requests.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\requests.py',
+   'DATA'),
+  ('fastapi\\responses.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\responses.py',
+   'DATA'),
+  ('fastapi\\routing.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\routing.py',
+   'DATA'),
+  ('fastapi\\security\\__init__.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\security\\__init__.py',
+   'DATA'),
+  ('fastapi\\security\\api_key.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\security\\api_key.py',
+   'DATA'),
+  ('fastapi\\security\\base.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\security\\base.py',
+   'DATA'),
+  ('fastapi\\security\\http.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\security\\http.py',
+   'DATA'),
+  ('fastapi\\security\\oauth2.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\security\\oauth2.py',
+   'DATA'),
+  ('fastapi\\security\\open_id_connect_url.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\security\\open_id_connect_url.py',
+   'DATA'),
+  ('fastapi\\security\\utils.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\security\\utils.py',
+   'DATA'),
+  ('fastapi\\staticfiles.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\staticfiles.py',
+   'DATA'),
+  ('fastapi\\templating.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\templating.py',
+   'DATA'),
+  ('fastapi\\testclient.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\testclient.py',
+   'DATA'),
+  ('fastapi\\types.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\types.py',
+   'DATA'),
+  ('fastapi\\utils.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\utils.py',
+   'DATA'),
+  ('fastapi\\websockets.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\fastapi\\websockets.py',
+   'DATA'),
+  ('pydantic-2.11.9.dist-info\\INSTALLER',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic-2.11.9.dist-info\\INSTALLER',
+   'DATA'),
+  ('pydantic-2.11.9.dist-info\\METADATA',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic-2.11.9.dist-info\\METADATA',
+   'DATA'),
+  ('pydantic-2.11.9.dist-info\\RECORD',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic-2.11.9.dist-info\\RECORD',
+   'DATA'),
+  ('pydantic-2.11.9.dist-info\\WHEEL',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic-2.11.9.dist-info\\WHEEL',
+   'DATA'),
+  ('pydantic-2.11.9.dist-info\\licenses\\LICENSE',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic-2.11.9.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('pydantic\\__init__.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\__init__.py',
+   'DATA'),
+  ('pydantic\\_internal\\__init__.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\__init__.py',
+   'DATA'),
+  ('pydantic\\_internal\\_config.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_config.py',
+   'DATA'),
+  ('pydantic\\_internal\\_core_metadata.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_core_metadata.py',
+   'DATA'),
+  ('pydantic\\_internal\\_core_utils.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_core_utils.py',
+   'DATA'),
+  ('pydantic\\_internal\\_dataclasses.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_dataclasses.py',
+   'DATA'),
+  ('pydantic\\_internal\\_decorators.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_decorators.py',
+   'DATA'),
+  ('pydantic\\_internal\\_decorators_v1.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_decorators_v1.py',
+   'DATA'),
+  ('pydantic\\_internal\\_discriminated_union.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_discriminated_union.py',
+   'DATA'),
+  ('pydantic\\_internal\\_docs_extraction.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_docs_extraction.py',
+   'DATA'),
+  ('pydantic\\_internal\\_fields.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_fields.py',
+   'DATA'),
+  ('pydantic\\_internal\\_forward_ref.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_forward_ref.py',
+   'DATA'),
+  ('pydantic\\_internal\\_generate_schema.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_generate_schema.py',
+   'DATA'),
+  ('pydantic\\_internal\\_generics.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_generics.py',
+   'DATA'),
+  ('pydantic\\_internal\\_git.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_git.py',
+   'DATA'),
+  ('pydantic\\_internal\\_import_utils.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_import_utils.py',
+   'DATA'),
+  ('pydantic\\_internal\\_internal_dataclass.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_internal_dataclass.py',
+   'DATA'),
+  ('pydantic\\_internal\\_known_annotated_metadata.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_known_annotated_metadata.py',
+   'DATA'),
+  ('pydantic\\_internal\\_mock_val_ser.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_mock_val_ser.py',
+   'DATA'),
+  ('pydantic\\_internal\\_model_construction.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_model_construction.py',
+   'DATA'),
+  ('pydantic\\_internal\\_namespace_utils.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_namespace_utils.py',
+   'DATA'),
+  ('pydantic\\_internal\\_repr.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_repr.py',
+   'DATA'),
+  ('pydantic\\_internal\\_schema_gather.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_schema_gather.py',
+   'DATA'),
+  ('pydantic\\_internal\\_schema_generation_shared.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_schema_generation_shared.py',
+   'DATA'),
+  ('pydantic\\_internal\\_serializers.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_serializers.py',
+   'DATA'),
+  ('pydantic\\_internal\\_signature.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_signature.py',
+   'DATA'),
+  ('pydantic\\_internal\\_typing_extra.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_typing_extra.py',
+   'DATA'),
+  ('pydantic\\_internal\\_utils.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_utils.py',
+   'DATA'),
+  ('pydantic\\_internal\\_validate_call.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_validate_call.py',
+   'DATA'),
+  ('pydantic\\_internal\\_validators.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_validators.py',
+   'DATA'),
+  ('pydantic\\_migration.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\_migration.py',
+   'DATA'),
+  ('pydantic\\alias_generators.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\alias_generators.py',
+   'DATA'),
+  ('pydantic\\aliases.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\aliases.py',
+   'DATA'),
+  ('pydantic\\annotated_handlers.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\annotated_handlers.py',
+   'DATA'),
+  ('pydantic\\class_validators.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\class_validators.py',
+   'DATA'),
+  ('pydantic\\color.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\color.py',
+   'DATA'),
+  ('pydantic\\config.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\config.py',
+   'DATA'),
+  ('pydantic\\dataclasses.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\dataclasses.py',
+   'DATA'),
+  ('pydantic\\datetime_parse.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\datetime_parse.py',
+   'DATA'),
+  ('pydantic\\decorator.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\decorator.py',
+   'DATA'),
+  ('pydantic\\deprecated\\__init__.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\deprecated\\__init__.py',
+   'DATA'),
+  ('pydantic\\deprecated\\class_validators.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\deprecated\\class_validators.py',
+   'DATA'),
+  ('pydantic\\deprecated\\config.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\deprecated\\config.py',
+   'DATA'),
+  ('pydantic\\deprecated\\copy_internals.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\deprecated\\copy_internals.py',
+   'DATA'),
+  ('pydantic\\deprecated\\decorator.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\deprecated\\decorator.py',
+   'DATA'),
+  ('pydantic\\deprecated\\json.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\deprecated\\json.py',
+   'DATA'),
+  ('pydantic\\deprecated\\parse.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\deprecated\\parse.py',
+   'DATA'),
+  ('pydantic\\deprecated\\tools.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\deprecated\\tools.py',
+   'DATA'),
+  ('pydantic\\env_settings.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\env_settings.py',
+   'DATA'),
+  ('pydantic\\error_wrappers.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\error_wrappers.py',
+   'DATA'),
+  ('pydantic\\errors.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\errors.py',
+   'DATA'),
+  ('pydantic\\experimental\\__init__.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\experimental\\__init__.py',
+   'DATA'),
+  ('pydantic\\experimental\\arguments_schema.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\experimental\\arguments_schema.py',
+   'DATA'),
+  ('pydantic\\experimental\\pipeline.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\experimental\\pipeline.py',
+   'DATA'),
+  ('pydantic\\fields.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\fields.py',
+   'DATA'),
+  ('pydantic\\functional_serializers.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\functional_serializers.py',
+   'DATA'),
+  ('pydantic\\functional_validators.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\functional_validators.py',
+   'DATA'),
+  ('pydantic\\generics.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\generics.py',
+   'DATA'),
+  ('pydantic\\json.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\json.py',
+   'DATA'),
+  ('pydantic\\json_schema.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\json_schema.py',
+   'DATA'),
+  ('pydantic\\main.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\main.py',
+   'DATA'),
+  ('pydantic\\mypy.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\mypy.py',
+   'DATA'),
+  ('pydantic\\networks.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\networks.py',
+   'DATA'),
+  ('pydantic\\parse.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\parse.py',
+   'DATA'),
+  ('pydantic\\plugin\\__init__.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\plugin\\__init__.py',
+   'DATA'),
+  ('pydantic\\plugin\\_loader.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\plugin\\_loader.py',
+   'DATA'),
+  ('pydantic\\plugin\\_schema_validator.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\plugin\\_schema_validator.py',
+   'DATA'),
+  ('pydantic\\py.typed',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\py.typed',
+   'DATA'),
+  ('pydantic\\root_model.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\root_model.py',
+   'DATA'),
+  ('pydantic\\schema.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\schema.py',
+   'DATA'),
+  ('pydantic\\tools.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\tools.py',
+   'DATA'),
+  ('pydantic\\type_adapter.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\type_adapter.py',
+   'DATA'),
+  ('pydantic\\types.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\types.py',
+   'DATA'),
+  ('pydantic\\typing.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\typing.py',
+   'DATA'),
+  ('pydantic\\utils.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\utils.py',
+   'DATA'),
+  ('pydantic\\v1\\__init__.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\v1\\__init__.py',
+   'DATA'),
+  ('pydantic\\v1\\_hypothesis_plugin.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\v1\\_hypothesis_plugin.py',
+   'DATA'),
+  ('pydantic\\v1\\annotated_types.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\v1\\annotated_types.py',
+   'DATA'),
+  ('pydantic\\v1\\class_validators.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\v1\\class_validators.py',
+   'DATA'),
+  ('pydantic\\v1\\color.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\v1\\color.py',
+   'DATA'),
+  ('pydantic\\v1\\config.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\v1\\config.py',
+   'DATA'),
+  ('pydantic\\v1\\dataclasses.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\v1\\dataclasses.py',
+   'DATA'),
+  ('pydantic\\v1\\datetime_parse.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\v1\\datetime_parse.py',
+   'DATA'),
+  ('pydantic\\v1\\decorator.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\v1\\decorator.py',
+   'DATA'),
+  ('pydantic\\v1\\env_settings.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\v1\\env_settings.py',
+   'DATA'),
+  ('pydantic\\v1\\error_wrappers.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\v1\\error_wrappers.py',
+   'DATA'),
+  ('pydantic\\v1\\errors.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\v1\\errors.py',
+   'DATA'),
+  ('pydantic\\v1\\fields.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\v1\\fields.py',
+   'DATA'),
+  ('pydantic\\v1\\generics.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\v1\\generics.py',
+   'DATA'),
+  ('pydantic\\v1\\json.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\v1\\json.py',
+   'DATA'),
+  ('pydantic\\v1\\main.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\v1\\main.py',
+   'DATA'),
+  ('pydantic\\v1\\mypy.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\v1\\mypy.py',
+   'DATA'),
+  ('pydantic\\v1\\networks.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\v1\\networks.py',
+   'DATA'),
+  ('pydantic\\v1\\parse.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\v1\\parse.py',
+   'DATA'),
+  ('pydantic\\v1\\py.typed',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\v1\\py.typed',
+   'DATA'),
+  ('pydantic\\v1\\schema.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\v1\\schema.py',
+   'DATA'),
+  ('pydantic\\v1\\tools.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\v1\\tools.py',
+   'DATA'),
+  ('pydantic\\v1\\types.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\v1\\types.py',
+   'DATA'),
+  ('pydantic\\v1\\typing.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\v1\\typing.py',
+   'DATA'),
+  ('pydantic\\v1\\utils.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\v1\\utils.py',
+   'DATA'),
+  ('pydantic\\v1\\validators.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\v1\\validators.py',
+   'DATA'),
+  ('pydantic\\v1\\version.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\v1\\version.py',
+   'DATA'),
+  ('pydantic\\validate_call_decorator.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\validate_call_decorator.py',
+   'DATA'),
+  ('pydantic\\validators.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\validators.py',
+   'DATA'),
+  ('pydantic\\version.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\version.py',
+   'DATA'),
+  ('pydantic\\warnings.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydantic\\warnings.py',
+   'DATA'),
+  ('pydglab_ws-1.1.0.dist-info\\INSTALLER',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydglab_ws-1.1.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('pydglab_ws-1.1.0.dist-info\\LICENSE',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydglab_ws-1.1.0.dist-info\\LICENSE',
+   'DATA'),
+  ('pydglab_ws-1.1.0.dist-info\\METADATA',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydglab_ws-1.1.0.dist-info\\METADATA',
+   'DATA'),
+  ('pydglab_ws-1.1.0.dist-info\\RECORD',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydglab_ws-1.1.0.dist-info\\RECORD',
+   'DATA'),
+  ('pydglab_ws-1.1.0.dist-info\\REQUESTED',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydglab_ws-1.1.0.dist-info\\REQUESTED',
+   'DATA'),
+  ('pydglab_ws-1.1.0.dist-info\\WHEEL',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydglab_ws-1.1.0.dist-info\\WHEEL',
+   'DATA'),
+  ('pydglab_ws\\__init__.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydglab_ws\\__init__.py',
+   'DATA'),
+  ('pydglab_ws\\client\\__init__.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydglab_ws\\client\\__init__.py',
+   'DATA'),
+  ('pydglab_ws\\client\\base.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydglab_ws\\client\\base.py',
+   'DATA'),
+  ('pydglab_ws\\client\\connect.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydglab_ws\\client\\connect.py',
+   'DATA'),
+  ('pydglab_ws\\client\\local.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydglab_ws\\client\\local.py',
+   'DATA'),
+  ('pydglab_ws\\client\\ws.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydglab_ws\\client\\ws.py',
+   'DATA'),
+  ('pydglab_ws\\enums.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydglab_ws\\enums.py',
+   'DATA'),
+  ('pydglab_ws\\exceptions.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydglab_ws\\exceptions.py',
+   'DATA'),
+  ('pydglab_ws\\models.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydglab_ws\\models.py',
+   'DATA'),
+  ('pydglab_ws\\server\\__init__.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydglab_ws\\server\\__init__.py',
+   'DATA'),
+  ('pydglab_ws\\server\\server.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydglab_ws\\server\\server.py',
+   'DATA'),
+  ('pydglab_ws\\typing.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydglab_ws\\typing.py',
+   'DATA'),
+  ('pydglab_ws\\utils.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\pydglab_ws\\utils.py',
+   'DATA'),
+  ('starlette-0.48.0.dist-info\\INSTALLER',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette-0.48.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('starlette-0.48.0.dist-info\\METADATA',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette-0.48.0.dist-info\\METADATA',
+   'DATA'),
+  ('starlette-0.48.0.dist-info\\RECORD',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette-0.48.0.dist-info\\RECORD',
+   'DATA'),
+  ('starlette-0.48.0.dist-info\\WHEEL',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette-0.48.0.dist-info\\WHEEL',
+   'DATA'),
+  ('starlette-0.48.0.dist-info\\licenses\\LICENSE.md',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette-0.48.0.dist-info\\licenses\\LICENSE.md',
+   'DATA'),
+  ('starlette\\__init__.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\__init__.py',
+   'DATA'),
+  ('starlette\\_exception_handler.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\_exception_handler.py',
+   'DATA'),
+  ('starlette\\_utils.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\_utils.py',
+   'DATA'),
+  ('starlette\\applications.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\applications.py',
+   'DATA'),
+  ('starlette\\authentication.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\authentication.py',
+   'DATA'),
+  ('starlette\\background.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\background.py',
+   'DATA'),
+  ('starlette\\concurrency.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\concurrency.py',
+   'DATA'),
+  ('starlette\\config.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\config.py',
+   'DATA'),
+  ('starlette\\convertors.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\convertors.py',
+   'DATA'),
+  ('starlette\\datastructures.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\datastructures.py',
+   'DATA'),
+  ('starlette\\endpoints.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\endpoints.py',
+   'DATA'),
+  ('starlette\\exceptions.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\exceptions.py',
+   'DATA'),
+  ('starlette\\formparsers.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\formparsers.py',
+   'DATA'),
+  ('starlette\\middleware\\__init__.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\middleware\\__init__.py',
+   'DATA'),
+  ('starlette\\middleware\\authentication.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\middleware\\authentication.py',
+   'DATA'),
+  ('starlette\\middleware\\base.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py',
+   'DATA'),
+  ('starlette\\middleware\\cors.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\middleware\\cors.py',
+   'DATA'),
+  ('starlette\\middleware\\errors.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\middleware\\errors.py',
+   'DATA'),
+  ('starlette\\middleware\\exceptions.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\middleware\\exceptions.py',
+   'DATA'),
+  ('starlette\\middleware\\gzip.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\middleware\\gzip.py',
+   'DATA'),
+  ('starlette\\middleware\\httpsredirect.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\middleware\\httpsredirect.py',
+   'DATA'),
+  ('starlette\\middleware\\sessions.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\middleware\\sessions.py',
+   'DATA'),
+  ('starlette\\middleware\\trustedhost.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\middleware\\trustedhost.py',
+   'DATA'),
+  ('starlette\\middleware\\wsgi.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\middleware\\wsgi.py',
+   'DATA'),
+  ('starlette\\py.typed',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\py.typed',
+   'DATA'),
+  ('starlette\\requests.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\requests.py',
+   'DATA'),
+  ('starlette\\responses.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\responses.py',
+   'DATA'),
+  ('starlette\\routing.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\routing.py',
+   'DATA'),
+  ('starlette\\schemas.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\schemas.py',
+   'DATA'),
+  ('starlette\\staticfiles.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\staticfiles.py',
+   'DATA'),
+  ('starlette\\status.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\status.py',
+   'DATA'),
+  ('starlette\\templating.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\templating.py',
+   'DATA'),
+  ('starlette\\testclient.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\testclient.py',
+   'DATA'),
+  ('starlette\\types.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\types.py',
+   'DATA'),
+  ('starlette\\websockets.py',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\starlette\\websockets.py',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\Lorem '
+   'ipsum.txt',
+   'DATA'),
+  ('certifi\\cacert.pem',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\certifi\\cacert.pem',
+   'DATA'),
+  ('certifi\\py.typed',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\certifi\\py.typed',
+   'DATA'),
+  ('websockets-12.0.dist-info\\INSTALLER',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\websockets-12.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('websockets-12.0.dist-info\\METADATA',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\websockets-12.0.dist-info\\METADATA',
+   'DATA'),
+  ('websockets-12.0.dist-info\\LICENSE',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\websockets-12.0.dist-info\\LICENSE',
+   'DATA'),
+  ('websockets-12.0.dist-info\\RECORD',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\websockets-12.0.dist-info\\RECORD',
+   'DATA'),
+  ('click-8.3.0.dist-info\\WHEEL',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\click-8.3.0.dist-info\\WHEEL',
+   'DATA'),
+  ('click-8.3.0.dist-info\\METADATA',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\click-8.3.0.dist-info\\METADATA',
+   'DATA'),
+  ('click-8.3.0.dist-info\\RECORD',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\click-8.3.0.dist-info\\RECORD',
+   'DATA'),
+  ('websockets-12.0.dist-info\\WHEEL',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\websockets-12.0.dist-info\\WHEEL',
+   'DATA'),
+  ('websockets-12.0.dist-info\\top_level.txt',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\websockets-12.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('click-8.3.0.dist-info\\licenses\\LICENSE.txt',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\click-8.3.0.dist-info\\licenses\\LICENSE.txt',
+   'DATA'),
+  ('click-8.3.0.dist-info\\INSTALLER',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\click-8.3.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('base_library.zip',
+   'C:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\build\\CoyoteServer\\base_library.zip',
+   'DATA')],
+ [],
+ False,
+ False,
+ 1758868383,
+ [('run.exe',
+   'c:\\Users\\tadeu\\OneDrive\\Desktop\\telegram '
+   'dglab\\.venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',
+   'EXECUTABLE')],
+ 'C:\\Program '
+ 'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\python312.dll')
