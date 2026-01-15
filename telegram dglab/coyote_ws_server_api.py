@@ -1,15 +1,13 @@
-# When starting "uvicorn coyote_ws_server_api:app --host 0.0.0.0 --port 8000"
-
 #!/usr/bin/env python3
 """
 DG-Lab Coyote 3.0 WebSocket server (single client) + FastAPI API
 Endpoint:
   POST /shock  -> real pulse burst (Socket Control), queued/serialized
-pyinstaller --clean --noconfirm --onefile `
-  --name CoyoteServer `
-  --collect-all fastapi --collect-all starlette --collect-all pydantic `
-  --collect-all pydglab_ws `
-  server_launcher.py
+
+Run:
+  cd "C:\Users\tiago\Documents\GitHub\Telegram-Dg-Lab"
+python -m uvicorn "telegram dglab.coyote_ws_server_api:app" --host 0.0.0.0 --port 8000
+
 Design goals:
 - Keep the code small, explicit, and easy to read.
 - Queue concurrent shocks so device commands never collide.
@@ -21,7 +19,10 @@ from __future__ import annotations
 import asyncio
 import os
 import socket
+import sys
+
 from dataclasses import dataclass
+from pathlib import Path
 from typing import Optional, Dict, Any
 
 from fastapi import FastAPI, HTTPException
@@ -34,17 +35,18 @@ try:
     from pydglab_ws import (
         DGLabWSServer,
         Channel,
-        StrengthOperationType,
         InvalidPulseOperation,
         PulseDataTooLong,
     )
 except ImportError as e:
-    raise SystemExit("Missing dependency: pydglab-ws. Install:\n  python -m pip install pydglab-ws") from e
+    raise SystemExit(
+        "Missing dependency: pydglab-ws. Install:\n  python -m pip install pydglab-ws"
+    ) from e
 
 try:
     import qrcode  # optional (for QR image)
     HAVE_QR = True
-except Exception:
+except ImportError:
     HAVE_QR = False
 
 
@@ -68,8 +70,29 @@ class Config:
     # Cosmetic owner amplitude cap (applied to requested amp)
     OWNER_MAX_POWER: int = int(os.getenv("OWNER_MAX_POWER", "50"))
 
+
 CFG = Config()
 API_DESCRIPTION = "DG-Lab Coyote WS + FastAPI; endpoint: POST /shock (queued)"
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Paths / QR output (robust for normal runs + PyInstaller onefile)
+# ─────────────────────────────────────────────────────────────────────────────
+def get_base_dir() -> Path:
+    """
+    Returns a stable directory where we can write output files.
+    - Normal Python run: directory of this file.
+    - PyInstaller frozen app: directory of the executable.
+    """
+    if getattr(sys, "frozen", False):
+        return Path(sys.executable).resolve().parent
+    return Path(__file__).resolve().parent
+
+
+BASE_DIR = get_base_dir()
+QR_DIR = BASE_DIR / "qrcodes"
+QR_DIR.mkdir(parents=True, exist_ok=True)
+QR_PATH = QR_DIR / "server_qr.png"
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -77,6 +100,7 @@ API_DESCRIPTION = "DG-Lab Coyote WS + FastAPI; endpoint: POST /shock (queued)"
 # ─────────────────────────────────────────────────────────────────────────────
 def clamp_int(x: int, lo: int, hi: int) -> int:
     return max(lo, min(hi, x))
+
 
 def guess_lan_ip() -> str:
     """Determine LAN IP (used to print ws:// URL for the app QR)."""
@@ -138,6 +162,7 @@ class ShockJob:
     copies: int
     done: asyncio.Future  # completes with Dict response (or raises HTTPException)
 
+
 class CoyoteServer:
     """
     Owns:
@@ -184,10 +209,13 @@ class CoyoteServer:
             qr_payload = client.get_qrcode(public_uri)
             if qr_payload and HAVE_QR:
                 try:
-                    qrcode.make(qr_payload).save("server_qr.png")
-                    print("Saved QR to server_qr.png")
+                    qrcode.make(qr_payload).save(QR_PATH)
+                    print(f"[QR] Saved QR to: {QR_PATH.resolve()}")
                 except Exception as e:
-                    print(f"(QR save skipped: {e})")
+                    print(f"[QR] Save skipped (error): {e}")
+            elif qr_payload and not HAVE_QR:
+                print("[QR] qrcode module not installed, skipping PNG output.")
+                print("     Install with: python -m pip install qrcode[pil]")
 
             print("Waiting for the app to bind…")
             await client.bind()   # block until phone app connects
@@ -201,7 +229,7 @@ class CoyoteServer:
 
             t_task = asyncio.create_task(telemetry())
             try:
-                await asyncio.Future()            # keep context alive
+                await asyncio.Future()  # keep context alive
             finally:
                 t_task.cancel()
 
@@ -212,9 +240,10 @@ class CoyoteServer:
             try:
                 await self.bound_event.wait()  # guarantee device is ready
                 amp_eff = min(job.amp_requested, self.cfg.OWNER_MAX_POWER)
-                await self.controller.shock(job.channel, amp_eff, job.freq, job.copies)  # type: ignore[arg-type]
 
-                # Shape the response to keep existing bot logic unchanged
+                # controller is set once WS server starts
+                await self.controller.shock(job.channel, amp_eff, job.freq, job.copies)  # type: ignore[union-attr]
+
                 resp = {
                     "ok": True,
                     "mode": "pulse",
@@ -255,16 +284,20 @@ class ShockRequest(BaseModel):
             raise ValueError("channel must be 'A' or 'B'")
         return v
 
+
 app = FastAPI(title="DG-Lab Coyote API", description=API_DESCRIPTION, version="1.7.0")
 server = CoyoteServer(CFG)
+
 
 @app.on_event("startup")
 async def on_startup() -> None:
     server.start()
 
+
 @app.on_event("shutdown")
 async def on_shutdown() -> None:
     await server.stop()
+
 
 @app.post("/shock")
 async def shock(req: ShockRequest):
@@ -274,13 +307,12 @@ async def shock(req: ShockRequest):
     if not server.controller:
         raise HTTPException(status_code=503, detail="Controller not ready")
 
-    # Create and enqueue a job; wait for the worker to complete it
     done: asyncio.Future = asyncio.get_running_loop().create_future()
     job = ShockJob(channel=req.channel, amp_requested=req.amp, freq=req.freq, copies=req.copies, done=done)
     await server.queue.put(job)
 
     try:
-        resp: Dict[str, Any] = await done   # either returns dict or raises HTTPException
+        resp: Dict[str, Any] = await done  # either returns dict or raises HTTPException
         return resp
     except HTTPException as e:
         raise e

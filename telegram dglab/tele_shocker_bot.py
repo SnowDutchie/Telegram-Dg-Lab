@@ -26,7 +26,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 # Configuration
 # ─────────────────────────────────────────────────────────────────────────────
 # Your bot token (you asked to keep it set directly)
-TELEGRAM_BOT_TOKEN = "Bot_Token"
+TELEGRAM_BOT_TOKEN = "8052287055:AAGKaAtnVVh_FRVzxZnOk41PsiqtvVZ5VpY"
 
 # FastAPI base URL where /shock lives
 API_BASE = os.getenv("API_BASE", "http://127.0.0.1:8000")
