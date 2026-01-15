@@ -5,7 +5,7 @@ Endpoint:
   POST /shock  -> real pulse burst (Socket Control), queued/serialized
 
 Run:
-  cd "C:\Users\tiago\Documents\GitHub\Telegram-Dg-Lab"
+  cd "C:\Users\<user>\Documents\GitHub\Telegram-Dg-Lab"
 python -m uvicorn "telegram dglab.coyote_ws_server_api:app" --host 0.0.0.0 --port 8000
 
 Design goals:

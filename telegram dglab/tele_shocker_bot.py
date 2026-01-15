@@ -26,14 +26,14 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 # Configuration
 # ─────────────────────────────────────────────────────────────────────────────
 # Your bot token (you asked to keep it set directly)
-TELEGRAM_BOT_TOKEN = "8052287055:AAGKaAtnVVh_FRVzxZnOk41PsiqtvVZ5VpY"
+TELEGRAM_BOT_TOKEN = "bot_token_here"
 
 # FastAPI base URL where /shock lives
 API_BASE = os.getenv("API_BASE", "http://127.0.0.1:8000")
 API_SHOCK_URL = f"{API_BASE.rstrip('/')}/shock"
 
 # Admin who receives reports (defaults to your id)
-ADMIN_ID = int(os.getenv("ADMIN_ID", "5463242061"))
+ADMIN_ID = int(os.getenv("ADMIN_ID", "telegram_admin_id_here"))  # e.g., 123456789
 
 # Optional: restrict usage to a single chat (comment out to allow anyone)
 ALLOWED_CHAT_ID = os.getenv("ALLOWED_CHAT_ID")  # e.g., "123456789"
